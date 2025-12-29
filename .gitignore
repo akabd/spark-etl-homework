@@ -1,0 +1,37 @@
+# Virtual environment
+venv/
+.env
+
+# Data (local only)
+data/
+
+# Spark outputs
+out/
+
+# Spark / PySpark runtime
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.DS_Store
+
+# Spark packaging artifacts
+etl.zip
+*.jar
+
+# Logs
+*.log
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
